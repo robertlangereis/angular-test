@@ -1,12 +1,7 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+//precompile, server of client side compiling. Volledig gerund in de browser (wat problmen voor zoekmachines opleverd). Serverside rendering van een Angular website is helemaal server side geschreven voor zoekmachine - dan wordt de  client side Ang website rendered variant voor de klanten client. 
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
-if (environment.production) {
-  enableProdMode();
-}
+import { AppModule } from './app/app.module'
 
 platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
