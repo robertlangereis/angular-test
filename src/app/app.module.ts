@@ -4,6 +4,7 @@ import {CommonModule} from '@angular/common'
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component'
+import { ShoppingListServiceService } from '../../src/app/shopping-list-service.service'
 // import { AppComponent } from './app.component';
 
 @NgModule({
@@ -16,6 +17,9 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component'
     BrowserModule,
     CommonModule,
     FormsModule
+  ],
+  providers: [
+    ShoppingListServiceService
   ],
   // import the juiste modules die je nodig hebt
   bootstrap: [AppComponent]

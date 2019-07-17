@@ -1,0 +1,25 @@
+div{
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul{
+    list-style: none;
+}
+li{
+    background-color: yellow;
+    max-width: 30rem;
+    display: inline flex;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px;
+}
+
+hr{
+    max-width: 10rem;
+    justify-content: left;
+    align-self: left;
+}

@@ -1,6 +1,20 @@
 .app {
-  // background-color: red;
+  background-color: coral;
   // color: red;
+
+}
+.knoppies{
+    background-color: lightseagreen;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.value{
+    max-width: 30px;
+}
+.groceries{
+    margin-left: 10px;
 }
 
 // SCSS bestanden zijn gescoped. Let daar op! Je kan dus niet "cross-component" scss schrijven

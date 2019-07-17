@@ -1,1 +1,11 @@
-<p>shopping-list works!</p>
+   <div class="knoppies">
+       <ul>
+            <div class="groceries">Groceries:</div>
+      <li *ngFor="let grocery of groceries; let i=index;">
+        {{grocery.quantity}} x {{grocery.name}}
+        <button (click)="removeProductFromParentList(i)">X</button>
+      </li>
+    </ul>
+  </div>
+  
+  
